@@ -98,6 +98,46 @@ flowchart TD
 | `SEC-11` 🌟 | **Semantic Cross-Tenant Exfiltration** | **Learner Extension** | Prevented unauthorized data retrieval via creative framing | ✅ Passed |
 | `L-SEC-001` 🌟 | **Synthetic Approval Bypass** | **Learner TODO-11/12** | Repaired guard intercepting `approval_bypass_attempt` | ✅ Passed |
 
+
+{
+  "day": 1,
+  "llm_mode": "stub",
+  "public_tests_passed": true,
+  "learner_checks_complete": true,
+  "all_passed": true,
+  "learner_checks": {
+    "1": true, "2": true, "3": true, "4": true, "5": true
+  }
+}
+
+{
+  "day": 2,
+  "all_passed": true,
+  "memory": {
+    "thread_id": "session-memory-demo",
+    "turn_1_order": "TW-26003",
+    "turn_2_recalled_order": "TW-26003",
+    "raw_messages_stored": false
+  }
+}
+
+{
+  "day": 3,
+  "ready": true,
+  "all_critical_gates_passed": true,
+  "all_learning_gates_passed": true,
+  "critical_gates": {
+    "functional_cases_pass": true,
+    "security_cases_pass": true,
+    "risk_flags_exact": true,
+    "cross_customer_leakage_zero": true,
+    "unauthorized_write_zero": true,
+    "human_approval_above_500": true,
+    "trace_redacted": true,
+    "optimization_safe_and_effective": true,
+    "public_tests_pass": true
+  }
+}
 ```mermaid
 flowchart LR
     A([👤 مدخلات العميل]) --> B[🛡️ حارس المدخلات Input Guard]
