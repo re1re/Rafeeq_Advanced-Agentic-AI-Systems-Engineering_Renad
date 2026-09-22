@@ -174,3 +174,21 @@ flowchart LR
     E --> I
     I --> J([✅ رد آمن ومنقح للعميل])
 ```
+
+---
+
+## 🏛️ الجهة الراعية والمرجع الأكاديمي (Academic Reference & Sponsorship)
+
+تم تطوير وإنجاز هذا المشروع كمتطلب رئيسي لمشروع التخرج النهائي (**Capstone Project**) ضمن برنامج:
+**هندسة أنظمة الذكاء الاصطناعي التوكيلي المتقدمة (Advanced Agentic AI Systems Engineering - SDA-AIE-311)**
+
+* **الجهة المنظمة:** الهيئة السعودية للبيانات والذكاء الاصطناعي (سدايا) — **أكاديمية سدايا (SDAIA Academy)**.
+* **المرجع الخارجي الرسمي للأكاديمية على GitHub:**  
+  👉 [SDAIA Academy GitHub Repository](https://github.com/SDAIAAcademy)
+
+---
+
+<div align="center">
+  <sub>All rights reserved © 2026 · Developed by <b>Eng. Renad</b> in collaboration with <b>SDAIA Academy</b></sub><br>
+  <sub>Official Reference: <a href="https://github.com/SDAIAAcademy">https://github.com/SDAIAAcademy</a></sub>
+</div>
